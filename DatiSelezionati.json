@@ -1,0 +1,265 @@
+{
+    "help": "https://dati.gov.it/opendata/api/3/action/help_show?name=package_show",
+    "result": {
+        "access_rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+        "alternate_identifier": "[]",
+        "author": null,
+        "author_email": null,
+        "creator": "[]",
+        "creator_user_id": "e514c9c4-6d64-45d6-ae28-c70bd3592d59",
+        "dataset_is_local": false,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "https://www.dati.lombardia.it/d/i746-73w4"
+            },
+            {
+                "key": "publisher_uri",
+                "value": "http://www.regione.lombardia.it"
+            },
+            {
+                "key": "source_catalog_description",
+                "value": "Il catalogo dei dati aperti di Regione Lombardia"
+            },
+            {
+                "key": "source_catalog_homepage",
+                "value": "https://www.dati.lombardia.it/"
+            },
+            {
+                "key": "source_catalog_modified",
+                "value": "2024-05-28"
+            },
+            {
+                "key": "source_catalog_publisher",
+                "value": "{\"uri\": \"http://www.regione.lombardia.it\", \"name\": \"Regione Lombardia\", \"email\": \"\", \"url\": \"\", \"type\": \"\"}"
+            },
+            {
+                "key": "source_catalog_title",
+                "value": "Catalogo OpenData di Regione Lombardia"
+            },
+            {
+                "key": "spatial_uri",
+                "value": "https://www.geonames.org/6537122"
+            },
+            {
+                "key": "uri",
+                "value": "https://www.dati.lombardia.it/d/i746-73w4"
+            },
+            {
+                "key": "theme",
+                "value": "[\"REGI\"]"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "1c2a08d6-3fbc-4dd3-ad1a-96059d933ba0"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "4a681cd3-0644-4b13-b563-28cf16f51d2e"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "Regione Lombardia"
+            }
+        ],
+        "frequency": "ANNUAL",
+        "groups": [
+            {
+                "description": "Regioni e citt\u00e0",
+                "display_name": "Regioni",
+                "id": "9165289a-211a-4778-840c-4223dc82c8a3",
+                "image_display_url": "",
+                "name": "regioni",
+                "title": "Regioni"
+            }
+        ],
+        "holder_identifier": "c_f704",
+        "holder_name": "Comune di Monza",
+        "id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+        "identifier": "c_f704:i746-73w4",
+        "isopen": false,
+        "language": "",
+        "license_id": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "license_title": "Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)",
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2024-03-08T22:26:14.930767",
+        "metadata_modified": "2024-05-29T13:35:09.333083",
+        "modified": "29-02-2024",
+        "name": "comune-monza-incidenti-stradali",
+        "notes": "Descrizione incidenti stradali rilevati dalla Polizia locale - anno 2023",
+        "num_resources": 5,
+        "num_tags": 1,
+        "organization": {
+            "approval_status": "approved",
+            "created": "2024-03-08T21:40:37.206041",
+            "description": "",
+            "id": "0d28a036-aa28-46cd-becb-7def5df861d7",
+            "image_url": "",
+            "is_organization": true,
+            "name": "regione-lombardia",
+            "state": "active",
+            "title": "Regione Lombardia",
+            "type": "organization"
+        },
+        "owner_org": "0d28a036-aa28-46cd-becb-7def5df861d7",
+        "private": false,
+        "publisher_identifier": "r_lombar",
+        "publisher_name": "Regione Lombardia",
+        "relationships_as_object": [],
+        "relationships_as_subject": [],
+        "resources": [
+            {
+                "access_url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.csv?accessType=DOWNLOAD",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-08T22:26:14.931675",
+                "description": null,
+                "distribution_ref": "https://www.dati.lombardia.it/d/i746-73w4-csv",
+                "format": "CSV",
+                "hash": "",
+                "id": "73b7be36-ff1c-4f75-a9d7-d81261790eeb",
+                "last_modified": null,
+                "license": "https://www.dati.gov.it/content/italian-open-data-license-v20",
+                "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20",
+                "metadata_modified": "2024-04-28T01:23:59.533196",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+                "position": 0,
+                "resource_type": null,
+                "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+                "size": null,
+                "state": "active",
+                "uri": "https://www.dati.lombardia.it/d/i746-73w4-csv",
+                "url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.csv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "access_url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.json?accessType=DOWNLOAD",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-08T22:26:14.931678",
+                "description": null,
+                "distribution_ref": "https://www.dati.lombardia.it/d/i746-73w4-json",
+                "format": "JSON",
+                "hash": "",
+                "id": "fd83ee62-5dfe-47fe-8be6-2c829d193458",
+                "last_modified": null,
+                "license": "https://www.dati.gov.it/content/italian-open-data-license-v20",
+                "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20",
+                "metadata_modified": "2024-04-28T01:23:59.533310",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+                "position": 1,
+                "resource_type": null,
+                "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+                "size": null,
+                "state": "active",
+                "uri": "https://www.dati.lombardia.it/d/i746-73w4-json",
+                "url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.json?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "access_url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.rdf?accessType=DOWNLOAD",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-08T22:26:14.931680",
+                "description": null,
+                "distribution_ref": "https://www.dati.lombardia.it/d/i746-73w4-rdf",
+                "format": "RDF",
+                "hash": "",
+                "id": "6d86efc4-9b9b-44a5-873f-2eb84fbbf7cd",
+                "last_modified": null,
+                "license": "https://www.dati.gov.it/content/italian-open-data-license-v20",
+                "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20",
+                "metadata_modified": "2024-04-28T01:23:59.533383",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+                "position": 2,
+                "resource_type": null,
+                "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+                "size": null,
+                "state": "active",
+                "uri": "https://www.dati.lombardia.it/d/i746-73w4-rdf",
+                "url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.rdf?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "access_url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.tsv?accessType=DOWNLOAD",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-08T22:26:14.931682",
+                "description": null,
+                "distribution_ref": "https://www.dati.lombardia.it/d/i746-73w4-tsv",
+                "format": "TSV",
+                "hash": "",
+                "id": "626e239c-2a3b-4e06-811d-01742c8291de",
+                "last_modified": null,
+                "license": "https://www.dati.gov.it/content/italian-open-data-license-v20",
+                "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20",
+                "metadata_modified": "2024-04-28T01:23:59.533452",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+                "position": 3,
+                "resource_type": null,
+                "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+                "size": null,
+                "state": "active",
+                "uri": "https://www.dati.lombardia.it/d/i746-73w4-tsv",
+                "url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.tsv?accessType=DOWNLOAD",
+                "url_type": null
+            },
+            {
+                "access_url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.xml?accessType=DOWNLOAD",
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-03-08T22:26:14.931683",
+                "description": null,
+                "distribution_ref": "https://www.dati.lombardia.it/d/i746-73w4-xml",
+                "format": "XML",
+                "hash": "",
+                "id": "07247251-41f2-4261-a77e-43fce2a0a6c2",
+                "last_modified": null,
+                "license": "https://www.dati.gov.it/content/italian-open-data-license-v20",
+                "license_type": "https://w3id.org/italia/controlled-vocabulary/licences/A29_IODL20",
+                "metadata_modified": "2024-04-28T01:23:59.533519",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": null,
+                "package_id": "6898697d-b81e-42ef-a4fb-9044e3f09231",
+                "position": 4,
+                "resource_type": null,
+                "rights": "http://publications.europa.eu/resource/authority/access-right/PUBLIC",
+                "size": null,
+                "state": "active",
+                "uri": "https://www.dati.lombardia.it/d/i746-73w4-xml",
+                "url": "https://www.dati.lombardia.it/api/views/i746-73w4/rows.xml?accessType=DOWNLOAD",
+                "url_type": null
+            }
+        ],
+        "state": "active",
+        "tags": [
+            {
+                "display_name": "N_A",
+                "id": "ea9293e4-ed1f-457a-96fd-daaea846bbe7",
+                "name": "N_A",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "themes_aggregate": "[{\"theme\": \"REGI\", \"subthemes\": []}]",
+        "title": "COMUNE MONZA - incidenti stradali",
+        "type": "dataset",
+        "url": null,
+        "version": null
+    },
+    "success": true
+}
