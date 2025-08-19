@@ -1,12 +1,12 @@
 # AnalisiOpenData
 
 ## Description
-> Progetto che implemanta lo sviluppo di un software in linguaggio Pythone per l'estrapolazione di open data dal portale ufficiale di ricerca dati.gov.it
+> Project implementing the development of software in Python for extracting open data from the official search portal dati.gov.it
 
 ## Main Features
- - Visualizzazione della lista completa di tutti i dati presenti sul portale;
- - Sistema di filtraggio tramite parola chiave;
- - Analisi finale e visualizzazione mappa;
+ - Display of the complete list of all data available on the portal;
+ - Filtering system using keywords;
+ - Final analysis and map visualization;
 
 ## Installation
 Instructions to install the project:
@@ -19,37 +19,37 @@ cd AnalisiOpenData
 - Python 3
 - Main dependencies (requests, pandas)
 - Other required software (json, folium)
-- Utilizzabile solo su dati che contengono file json e csv, unica versione.
+- Usable only with data containing JSON and CSV files, single version.
 
 ## Usage
-- Esempio esplicativo già presente nel codice
+- Explanatory example already present in the code
 ```bash
 python main.py
 ```
 
 ## Project Structure
-- /AnalisiOpenData.py
-  Il file principale del programma, che probabilmente contiene la logica per l’analisi dei dati open data.
+- /AnalisiOpenData.py  
+  The main program file, which likely contains the logic for open data analysis.
 
-- /README.md
-  Il file di documentazione, dove sarà descritta la struttura e il funzionamento del progetto.
+- /README.md  
+  The documentation file, describing the structure and operation of the project.
   
-- /DatiGovIt.json,
-  /DatiGovItFiltrati.json,
-  /DatiSelezionati.json
-  Diversi file di dati in formato JSON, utilizzati per l’elaborazione e filtraggio delle   informazioni.
+- /DatiGovIt.json,  
+  /DatiGovItFiltrati.json,  
+  /DatiSelezionati.json  
+  Various data files in JSON format, used for processing and filtering information.
   
-- /Condizioni.xlsx,
-  /ouput.xlsx,
-  /output.csv
-  File di dati in formato Excel e CSV, probabilmente per input, output e condizioni dell’analisi.
+- /Condizioni.xlsx,  
+  /ouput.xlsx,  
+  /output.csv  
+  Data files in Excel and CSV format, probably for input, output, and analysis conditions.
 
-- /mappa_incidenti.html
-  Un file HTML che potrebbe rappresentare una visualizzazione dei dati analizzati su una mappa.
+- /mappa_incidenti.html  
+  An HTML file that could represent a visualization of the analyzed data on a map.
 
--/LICENSE
- /.gitignore
- File di configurazione e licenza.
+- /LICENSE  
+  /.gitignore  
+  Configuration and license files.
 
 ## Contributing
 Guidelines for those who wish to contribute:
