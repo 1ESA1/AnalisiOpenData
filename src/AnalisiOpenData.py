@@ -1,5 +1,14 @@
-from ast import And
-from operator import and_
+"""
+Applicazione per l'analisi degli Open Data
+Autore: 1ESA1
+Data: 2024-01-01
+Versione: 1.0
+
+Descrizione:
+Questa applicazione consente di recuperare, filtrare e analizzare i dati disponibili su dati.gov.it.
+Utilizza le API CKAN per ottenere la lista dei pacchetti e permette di selezionare e visualizzare i dati in formato CSV ed Excel.
+Inoltre, fornisce funzionalità di visualizzazione geografica tramite Folium.    
+"""
 import requests
 import pandas as pd
 import json
@@ -120,12 +129,12 @@ if not url:
         print("Dati salvati in output.csv") 
 
         #Salva il DataFrame in un secondo file Excel
-        df.to_excel('ouput.xlsx', index=False)
+        df.to_excel('output.xlsx', index=False)
         print("Dati salvati in output.xlsx")
 else:
     print(f"Errore durante il recupero dei dati: {response.status_code}")
 
-Condizioni = df[(df[ 'Condizioni traffico'] == 'Intenso') & (df['N. veicoli coinvolti'] > 2)] # type: ignore
+Condizioni = df[(df[ 'Condizioni traffico'] == 'Intenso') & (df['N. veicoli coinvolti'] > 2)]
 
 Condizioni = Condizioni.dropna(axis=1, how='all')
 
