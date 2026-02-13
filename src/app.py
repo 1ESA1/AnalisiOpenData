@@ -63,7 +63,7 @@ if run_analysis:
         except Exception as e:
             st.error(f"Error during search: {str(e)}")
 
-    st.ballons()
+    st.balloons()
  
 # Final message after processing all packages
 st.success("Analysis completed for all datasets.")
