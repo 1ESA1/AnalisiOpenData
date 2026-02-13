@@ -8,16 +8,14 @@ import streamlit as st
 import pandas as pd
 import os
 import sys
+from analyzer import IncidentAnalyzer
+from services import DataService, CkanApiService
 
 # Define th route for the application
 current_dir = os.path.dirname(os.path.abspath(__file__))
 if current_dir not in sys.path:
     sys.path.append(current_dir)
-
-# Importing the necessary modules for the application
-from src.analyzer import IncidentAnalyzer
-from src.services import DataService, CkanApiService
-
+    
 # Configuration of the Streamlit application
 st.set_page_config(page_title="Open Data Analysis", layout="wide")
 
