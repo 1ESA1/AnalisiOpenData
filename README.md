@@ -64,7 +64,7 @@ python test_utils.py       # Utility tests
 - **`data/`**: JSON files with dataset metadata
 - **`output/`**: Output files (CSV, Excel, HTML maps)
   - `🗺️ mappa_incidenti.html` - Interactive map
-  - `📊 ouput.xlsx` - Excel report
+  - `📊 output.xlsx` - Excel report
   - `📄 output.csv` - Data exported to CSV
 
 ## 🏆 Improvements Implemented
@@ -116,7 +116,7 @@ AnalisiOpenData/
 │
 ├── 📈 output/                # Generated output files
 │   ├── 🗺️ mappa_incidenti.html   # Interactive map
-│   ├── 📊 ouput.xlsx             # Excel report
+│   ├── 📊 output.xlsx             # Excel report
 │   └── 📄 output.csv             # Data exported to CSV
 │
 ├── 📖 README.md              # Complete documentation

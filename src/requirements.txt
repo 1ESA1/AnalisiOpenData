@@ -1,0 +1,6 @@
+requests
+pandas
+folium
+openpyxl
+plotly
+streamlit
