@@ -1,2 +1,30 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
 /ApplicazioneOpenDataRDF.py
 /QuerySPARQL.py
+
+# Environment files
+.env
+.env.local
+
+# Output/cache files
+*.egg-info/
+dist/
+build/
+.pytest_cache/
