@@ -42,14 +42,15 @@ http://localhost:8501
 
 **Deploy to Streamlit Cloud (External Users) 🌐**
 1. Create a GitHub repository with your project
-2. Sign up at [streamlit.io/cloud](https://brluhecnkuvhp99tuzhzv3.streamlit.app/)
+2. Sign up at [streamlit.io/cloud]
 3. Click "New app" and select your repository
 4. Share the public URL with users worldwide
 
-**Example Public URL:**
+**🚀 App Live: Public URL**
 ```
-https://your-username-analysiopendata.streamlit.app
+https://brluhecnkuvhp99tuzhzv3.streamlit.app/
 ```
+Click the link above to access the live application!
 
 **Features:**
 - 🔍 Interactive dataset search with keyword filtering
@@ -59,7 +60,7 @@ https://your-username-analysiopendata.streamlit.app
 - 📥 Download analysis results as CSV
 - 📈 View data summaries and statistics
 
-### **Modular Version (Recommended)**
+### **Modular Version CLI (Recommended)**
 ```bash
 cd src
 python main.py
