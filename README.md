@@ -29,6 +29,36 @@ cd AnalisiOpenData
 
 ## 🎯 Usage
 
+### **Streamlit Web Application (Recommended) ⭐**
+```bash
+cd src
+streamlit run app.py
+```
+
+**Local Access (Same Machine):**
+```
+http://localhost:8501
+```
+
+**Deploy to Streamlit Cloud (External Users) 🌐**
+1. Create a GitHub repository with your project
+2. Sign up at [streamlit.io/cloud](https://streamlit.io/cloud)
+3. Click "New app" and select your repository
+4. Share the public URL with users worldwide
+
+**Example Public URL:**
+```
+https://your-username-analysiopendata.streamlit.app
+```
+
+**Features:**
+- 🔍 Interactive dataset search with keyword filtering
+- 📋 Browse and select datasets from dati.gov.it
+- 📊 Analyze individual datasets or process all results
+- 🗺️ View interactive maps for geographic data
+- 📥 Download analysis results as CSV
+- 📈 View data summaries and statistics
+
 ### **Modular Version (Recommended)**
 ```bash
 cd src
@@ -85,6 +115,32 @@ python test_utils.py       # Utility tests
 - ✅ **Data validation**
 - ✅ **Automatic directory management**
 - ✅ **Complete test suite**
+
+## ✨ Latest Updates
+
+### **New Streamlit Web Application v2.0** 🎉
+- ✅ **Interactive Web Interface**: Modern Streamlit-based UI for easy data exploration
+- ✅ **Advanced Search**: Filter datasets by keyword from dati.gov.it
+- ✅ **Batch Processing**: Analyze all search results simultaneously
+- ✅ **Enhanced Maps**: Intelligent coordinate detection (latitude/longitude variations)
+- ✅ **CSV Analysis Tools**: Automatic CSV separator detection
+- ✅ **Live Statistics**: Real-time data summaries and metrics
+- ✅ **Download Support**: Export analyzed data as CSV files
+- ✅ **Progress Tracking**: Visual progress bars for batch operations
+
+### **Analyzer Module Enhancements**
+- ✅ **Flexible Coordinate Detection**: Supports multiple column naming conventions:
+  - Latitude: `latitudine`, `latitude`, `lat`, `y_coord`, `y`
+  - Longitude: `longitudine`, `longitude`, `lon`, `x_coord`, `x`
+- ✅ **Multi-Dataset Maps**: Create comprehensive geographic visualizations
+- ✅ **Enhanced Error Messages**: Detailed debug information for troubleshooting
+- ✅ **Data Analysis Pipeline**: Complete automatic analysis workflow
+
+### **Data Service Improvements**
+- ✅ **CSV Separator Detection**: Auto-detect `,`, `;`, `\t`, `|` separators
+- ✅ **Dataset Retrieval**: Integrated methods for package data extraction
+- ✅ **Data Cleaning**: Automatic duplicate removal and validation
+- ✅ **Resource Management**: Proper handling of multiple file formats
 
 ## 🏗️ Project Structure
 

@@ -49,10 +49,49 @@ class CkanApiService:
         except requests.RequestException as e: # Handle request exceptions
             print(f"Error retrieving package details {package_id}: {e}")
             return None
+    
+    def search_packages(self, keyword: str, rows: int = 100) -> List[Dict[str, Any]]:
+        """Search packages using a keyword"""
+        url = f"{self.base_url}/package_search"
+        params = {
+            'q': keyword,
+            'rows': rows
+        }
+        try:
+            response = requests.get(url, params=params)
+            response.raise_for_status()
+            data = json.loads(response.text)
+            return data.get('result', {}).get('results', [])
+        except requests.RequestException as e:
+            print(f"Error searching packages with keyword '{keyword}': {e}")
+            return []
 
 
 class DataService:
     """Manages CSV data retrieval and manipulation"""
+    
+    @staticmethod
+    def detect_csv_separator(data: str) -> str:
+        """Detect the separator used in CSV data"""
+        # Check the first few lines to detect the separator
+        lines = data.split('\n')[:5]
+        
+        # Count occurrences of common separators
+        separators = {',': 0, ';': 0, '\t': 0, '|': 0}
+        
+        for line in lines:
+            for sep in separators:
+                separators[sep] += line.count(sep)
+        
+        # Return the separator with the highest count
+        max_sep = ','
+        max_count = 0
+        for sep, count in separators.items():
+            if count > max_count:
+                max_count = count
+                max_sep = sep
+        
+        return max_sep if max_count > 0 else ','
     
     @staticmethod
     def get_dataframe_from_url(url: str) -> Optional[pd.DataFrame]: # Return function as a df object
@@ -61,7 +100,12 @@ class DataService:
             response = requests.get(url)
             response.raise_for_status() # Raise HTTPError exception if HTTP response indicates error (4xx or 5xx status codes)
             data = response.content.decode('utf-8')
-            df = pd.read_csv(StringIO(data))
+            
+            # Detect the separator used in the CSV
+            separator = DataService.detect_csv_separator(data)
+            
+            # Read CSV with detected separator
+            df = pd.read_csv(StringIO(data), sep=separator)
             return df
         except requests.RequestException as e:
             print(f"Error retrieving data from {url}: {e}")
@@ -87,3 +131,31 @@ class DataService:
             if format_type == 'CSV' and ('.csv' in url or 'accessType=DOWNLOAD' in url):
                 return resource.get('url')
         return None
+    
+    @staticmethod
+    def retrieve_dataset(package: Dict[str, Any]) -> Optional[pd.DataFrame]:
+        """Retrieve dataset from a package"""
+        # Find CSV resource URL from package resources
+        resources = package.get('resources', [])
+        for resource in resources:
+            format_type = resource.get('format', '')
+            url = resource.get('url', '')
+            # Check for CSV format
+            if format_type == 'CSV' and url:
+                return DataService.get_dataframe_from_url(url)
+        return None
+    
+    @staticmethod
+    def process_dataset(dataset: pd.DataFrame) -> pd.DataFrame:
+        """Process and clean the dataset"""
+        if dataset is None or dataset.empty:
+            return dataset
+        
+        # Basic data cleaning
+        # Remove duplicates
+        dataset = dataset.drop_duplicates()
+        
+        # Remove rows with all NaN values
+        dataset = dataset.dropna(how='all')
+        
+        return dataset
