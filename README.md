@@ -42,7 +42,7 @@ http://localhost:8501
 
 **Deploy to Streamlit Cloud (External Users) 🌐**
 1. Create a GitHub repository with your project
-2. Sign up at [streamlit.io/cloud](https://streamlit.io/cloud)
+2. Sign up at [streamlit.io/cloud](https://brluhecnkuvhp99tuzhzv3.streamlit.app/)
 3. Click "New app" and select your repository
 4. Share the public URL with users worldwide
 
