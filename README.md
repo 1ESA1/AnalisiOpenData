@@ -1,7 +1,5 @@
 # 🚀 AnalisiOpenData - Open Data Analyzer
 
-**🎉 RESTRUCTURING** - Successfully transformed the project from **monolithic** to **modular** 
-
 ## 📋 Description
 > Python software development project for analyzing and extracting open data from the official dati.gov.it search portal.
 
@@ -280,8 +278,3 @@ This project is distributed under the [Apache 2.0 License](http://www.apache.org
 ## 👨‍💻 Authors
 The project was developed by:
 - [1ESA1](https://github.com/1ESA1)
-
----
-
-**🎯 The restructuring was a complete success!** 
-The project now follows all the new professional best practices. 🏆
