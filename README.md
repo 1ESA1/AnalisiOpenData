@@ -38,7 +38,7 @@ cd AnalisiOpenData
 | [![Folium](https://img.shields.io/badge/Folium-77B829?style=plastic&logo=python&logoColor=white)](https://python-visualization.github.io/folium/) | *For interactive map* |
 | [![Support](https://img.shields.io/badge/Support-JSON%2FCSV-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Extensible and Compatible* |
 
-The dependencies are present in the file. [`requirements.txt`](requirements.txt). 
+*The dependencies are present in the file.* [`requirements.txt`](requirements.txt). 
 ```bash
 pip install -r requirements.txt
 ```
@@ -113,32 +113,6 @@ python test_utils.py       # Utility tests
 | [![Docs](https://img.shields.io/badge/Documentation-4D4D4D?style=plastic&logo=readthedocs&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Detailed documentation |
 | [![Backward](https://img.shields.io/badge/Backward_Compatible-FF9800?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Legacy code maintained |
 
-## ✨ Latest Updates
-
-### **New Streamlit Web Application v2.0** 🎉
-- ✅ **Interactive Web Interface**: Modern Streamlit-based UI for easy data exploration
-- ✅ **Advanced Search**: Filter datasets by keyword from dati.gov.it
-- ✅ **Batch Processing**: Analyze all search results simultaneously
-- ✅ **Enhanced Maps**: Intelligent coordinate detection (latitude/longitude variations)
-- ✅ **CSV Analysis Tools**: Automatic CSV separator detection
-- ✅ **Live Statistics**: Real-time data summaries and metrics
-- ✅ **Download Support**: Export analyzed data as CSV files
-- ✅ **Progress Tracking**: Visual progress bars for batch operations
-
-### **Analyzer Module Enhancements**
-- ✅ **Flexible Coordinate Detection**: Supports multiple column naming conventions:
-  - Latitude: `latitudine`, `latitude`, `lat`, `y_coord`, `y`
-  - Longitude: `longitudine`, `longitude`, `lon`, `x_coord`, `x`
-- ✅ **Multi-Dataset Maps**: Create comprehensive geographic visualizations
-- ✅ **Enhanced Error Messages**: Detailed debug information for troubleshooting
-- ✅ **Data Analysis Pipeline**: Complete automatic analysis workflow
-
-### **Data Service Improvements**
-- ✅ **CSV Separator Detection**: Auto-detect `,`, `;`, `\t`, `|` separators
-- ✅ **Dataset Retrieval**: Integrated methods for package data extraction
-- ✅ **Data Cleaning**: Automatic duplicate removal and validation
-- ✅ **Resource Management**: Proper handling of multiple file formats
-
 ## 🏗️ Project Structure
 
 ### **Module Architecture**
@@ -173,36 +147,19 @@ AnalisiOpenData/
 │   └── 📄 output.csv             # Data exported to CSV
 │
 ├── 📖 README.md              # Complete documentation
+├── 📖 CHANGELOG.md           # Updates documentation
 └── 📄 LICENSE                # Apache 2.0 License
 ```
+*Structure view*:
+```bash
+tree -I '__pycache__' --dirsfirst
+```
 
-## 🎯 Advantages of the New Organization
-
-### **Test Separation ✅**
-- ✅ Tests isolated in dedicated directory
-- ✅ Do not interfere with production code
-- ✅ Facilitates maintenance and development
-- ✅ Follow Python best practices
-
-### **Modular Architecture ✅**
-- ✅ Each module has specific responsibility
-- ✅ Reusable and testable code
-- ✅ Easy debugging and maintenance
-- ✅ Extensible for future features
-
-### **Complete Test Coverage ✅**
-- ✅ Tests for configuration and utilities
-- ✅ Import and structure tests
-- ✅ Component functionality tests
-- ✅ Complete integration tests
-
-## 📊 Successfully Completed Tests
+## TEST AND QUALITY
 - ✅ **Modules**: 6/6 source files validated
 - ✅ **Configuration**: Working settings tests  
 - ✅ **Functionality**: Core components tested
 - ✅ **Integration**: Complete system validated
-
-## 🧪 Testing
 
 ### **Run All Tests**
 ```bash
@@ -229,50 +186,15 @@ ls -la tests/
 ls -la data/
 ls -la output/
 ```
+## CONTRIBUTING
+| | |
+|-|-|
+| [![Contributing](https://img.shields.io/badge/Contributing-663399?style=plastic&logo=github&logoColor=white)](CONTRIBUTING.md) | *Contributions are welcome! Follow these guidelines:* | 
+| [![Open an Issue](https://img.shields.io/badge/Open_an_Issue-FF5252?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/issues) | *Verify that it has not already been reported, describe the problem with examples* |
+| [![Submit a PR](https://img.shields.io/badge/Submit_a_PR-4CAF50?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/pulls) | *Fork, create a branch, make sure tests pass* |
+| [![Coding Standards](https://img.shields.io/badge/Coding_Standards-PEP8-0288D1?style=plastic&logo=python&logoColor=white)](CONTRIBUTING.md) | *Follow PEP8 for Python* |
+| [![Docs](https://img.shields.io/badge/Update-Docs-0288D1?style=plastic&logo=readthedocs&logoColor=white)](CONTRIBUTING.md) | *Update documentation* |
+| [![Discussions](https://img.shields.io/badge/Discussions-Q%26A_%26_Proposals-0288D1?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/discussions) | *Open a discussion for questions or proposals* |
 
-## 🤝 Contributing
-Guidelines for those who wish to contribute:
-
-### **Opening an Issue**
-- Before opening a new issue, verify that it has not already been reported
-- Clearly describe the problem, expected behavior and actual behavior
-- If possible, attach screenshots, logs or code examples that help clarify the issue
-
-### **Proposing a Pull Request**
-- Fork the repository and create a new branch for your changes
-- Make sure your code is well formatted and doesn't introduce errors
-- Clearly describe the changes in the Pull Request message
-- Link the Pull Request to an Issue, if relevant
-- Respond to comments and review requests from maintainers
-
-### **Coding Standards**
-- Follow the project's style conventions (e.g. PEP8 for Python)
-- If you modify existing functionality, make sure everything continues to work correctly
-- Update documentation, if necessary
-
-### **Testing**
-- If possible, add tests that cover new functionality or fixes
-- Make sure all existing tests continue to pass
-
-### **Discussion**
-- For questions or proposals, open a discussion in the Issues section
-
-## 📝 Notes on Improvements
-
-### **Applied Structural Corrections:**
-- ✅ Updated file structure to reflect project reality
-- ✅ Corrected test commands to use actually present files
-- ✅ Updated module and component counts
-- ✅ Improved documentation of data and output directories
-
-### **Observations:**
-- 📋 The file `ouput.xlsx` in `/output/` contains a spelling error in the name
-- 🔧 Tests could be extended to cover more use cases
-- 📚 Documentation can be enriched with practical examples
-
-## 📄 License
-This project is distributed under the [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0).
-
-## 👨‍💻 Authors
-The project was developed by:
-- [1ESA1](https://github.com/1ESA1)
+[![GitHub](https://img.shields.io/badge/GitHub-project_developed_by_1ESA1-0288D1?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1)
+[![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
