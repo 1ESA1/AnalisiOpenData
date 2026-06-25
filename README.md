@@ -1,16 +1,24 @@
 # 🚀 AnalisiOpenData - Open Data Analyzer
+[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://brluhecnkuvhp99tuzhzv3.streamlit.app/)
+[![Repo Size](https://img.shields.io/github/repo-size/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData)
+[![Last Commit](https://img.shields.io/github/last-commit/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=yellow)](https://github.com/1ESA1/AnalisiOpenData/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=blue)](https://github.com/1ESA1/AnalisiOpenData/forks)
 
-## 📋 Description
+## Description
 > Python software development project for analyzing and extracting open data from the official dati.gov.it search portal.
 
-## ✨ Main Features
-- 🔍 **Search and filtering** of available datasets
-- 📊 **Automatic download and analysis** of CSV data
-- 🗺️ **Geographic visualization** of road accidents
-- 📈 **Export** to CSV and Excel formats
-- 🏗️ **Modular architecture** well organized
-- 🧪 **Complete test suite** for validation
-- ⚙️ **Centralized configuration** for easy maintenance
+## Main Features
+- [![Search](https://img.shields.io/badge/Data_Search-FF6F00?style=plastic&logo=elasticsearch&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Search and filtering of available datasets*
+- [![CSV Analysis](https://img.shields.io/badge/CSV_Analysis-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Automatic download and analysis of CSV data*
+- [![Maps](https://img.shields.io/badge/Geographic_Maps-FF5722?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Geographic visualization of maps*
+- [![Export](https://img.shields.io/badge/Export_Data-0078D4?style=plastic&logo=microsoft&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Export to CSV and Excel formats*
+- [![Modular](https://img.shields.io/badge/Modular_Architecture-663399?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Modular architecture well organized*
+- [![Tests](https://img.shields.io/badge/Test_Suite-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Complete test suite for validation*
+- [![Config](https://img.shields.io/badge/Centralized_Config-0288D1?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Centralized configuration for easy maintenance*
 
 ## 🚀 Installation
 Installation instructions:
