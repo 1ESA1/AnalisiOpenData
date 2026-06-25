@@ -2,25 +2,26 @@
 [![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://brluhecnkuvhp99tuzhzv3.streamlit.app/)
 [![Repo Size](https://img.shields.io/github/repo-size/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData)
-[![Last Commit](https://img.shields.io/github/last-commit/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData/commits/main)  
 [![GitHub stars](https://img.shields.io/github/stars/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=yellow)](https://github.com/1ESA1/AnalisiOpenData/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=blue)](https://github.com/1ESA1/AnalisiOpenData/forks)
 
-## Description
+## DESCRIPTION
 > Python software development project for analyzing and extracting open data from the official dati.gov.it search portal.
 
-## Main Features
-- [![Search](https://img.shields.io/badge/Data_Search-FF6F00?style=plastic&logo=elasticsearch&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Search and filtering of available datasets*
-- [![CSV Analysis](https://img.shields.io/badge/CSV_Analysis-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Automatic download and analysis of CSV data*
-- [![Maps](https://img.shields.io/badge/Geographic_Maps-FF5722?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Geographic visualization of maps*
-- [![Export](https://img.shields.io/badge/Export_Data-0078D4?style=plastic&logo=microsoft&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Export to CSV and Excel formats*
-- [![Modular](https://img.shields.io/badge/Modular_Architecture-663399?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Modular architecture well organized*
-- [![Tests](https://img.shields.io/badge/Test_Suite-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Complete test suite for validation*
-- [![Config](https://img.shields.io/badge/Centralized_Config-0288D1?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Centralized configuration for easy maintenance*
+## MAIN FEATURES
+| | |
+|-|-|
+| [![Search](https://img.shields.io/badge/Data_Search-FF6F00?style=plastic&logo=elasticsearch&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Search and filtering of available datasets* |
+| [![CSV Analysis](https://img.shields.io/badge/CSV_Analysis-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Automatic download and analysis of CSV data* |
+| [![Maps](https://img.shields.io/badge/Geographic_Maps-FF5722?style=plastic&logo=openstreetmap&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Geographic visualization of maps* |
+| [![Export](https://img.shields.io/badge/Export_Data-0078D4?style=plastic&logo=microsoft&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Export to CSV and Excel formats* |
+| [![Modular](https://img.shields.io/badge/Modular_Architecture-663399?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Modular architecture well organized* |
+| [![Tests](https://img.shields.io/badge/Test_Suite-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Complete test suite for validation* |
+| [![Config](https://img.shields.io/badge/Centralized_Config-0288D1?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Centralized configuration for easy maintenance* |
 
-## Installation
+## INSTALLATION
 [![Git](https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white)](https://git-scm.com/)
 [![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=plastic&logo=windows-terminal&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData)
 ```bash
@@ -28,65 +29,61 @@ git clone https://github.com/1ESA1/AnalisiOpenData.git
 cd AnalisiOpenData
 ```
 
-## 📋 Requirements
-
-- [![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/) — *Version Requests*
-- [![Requests](https://img.shields.io/badge/Requests-3766AB?style=plastic&logo=python&logoColor=white)](https://docs.python-requests.org/) — *Call API*
-- [![Pandas](https://img.shields.io/badge/Pandas-150458?style=plastic&logo=pandas&logoColor=white)](https://pandas.pydata.org/) — *For manipulation data*
-- [![Folium](https://img.shields.io/badge/Folium-77B829?style=plastic&logo=python&logoColor=white)](https://python-visualization.github.io/folium/) — *For interactive map*
-- [![Support](https://img.shields.io/badge/Support-JSON%2FCSV-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) - *Extensible and Compatible*
+## REQUIREMENTS
+| | |
+|-|-|
+| [![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/) | *Version Requests* |
+| [![Requests](https://img.shields.io/badge/Requests-3766AB?style=plastic&logo=python&logoColor=white)](https://docs.python-requests.org/) | *Call API* |
+| [![Pandas](https://img.shields.io/badge/Pandas-150458?style=plastic&logo=pandas&logoColor=white)](https://pandas.pydata.org/) | *For manipulation data* |
+| [![Folium](https://img.shields.io/badge/Folium-77B829?style=plastic&logo=python&logoColor=white)](https://python-visualization.github.io/folium/) | *For interactive map* |
+| [![Support](https://img.shields.io/badge/Support-JSON%2FCSV-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | *Extensible and Compatible* |
 
 The dependencies are present in the file. [`requirements.txt`](requirements.txt). 
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🎯 Usage
+## USAGE
+### [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=plastic)](https://streamlit.io/) *🚀Click to Web App Live || Public URL*
+```
+https://brluhecnkuvhp99tuzhzv3.streamlit.app/
+```
 
-### **Streamlit Web Application (Recommended) ⭐**
 ```bash
 cd src
 streamlit run app.py
 ```
 
-**Local Access (Same Machine):**
+### [![Localhost](https://img.shields.io/badge/Localhost-8501-0078D4?style=plastic)](http://localhost:8501) *Local Access (Same Machine):*
 ```
 http://localhost:8501
 ```
 
-**Deploy to Streamlit Cloud (External Users) 🌐**
-1. Create a GitHub repository with your project
-2. Sign up at [streamlit.io/cloud]
-3. Click "New app" and select your repository
-4. Share the public URL with users worldwide
+**Deploy to Streamlit Cloud - (External Users) - 🌐** 
+| | | |
+|-|-|-|
+| 1. | [![Create Repository](https://img.shields.io/badge/Create_Repository-181717?style=plastic&logo=github&logoColor=white)](https://github.com/new) | *GitHub with your project* |
+| 2. | [![Sign Up](https://img.shields.io/badge/Sign_Up-FF4B4B?style=plastic)](https://streamlit.io/cloud) | *Sign up at* [streamlit.io/cloud](https://streamlit.io/cloud) |
+| 3. | [![New App](https://img.shields.io/badge/New_App-4CAF50?style=plastic)](https://streamlit.io/cloud) | *Click "New app" and select your repository* |
+| 4. | [![Share URL](https://img.shields.io/badge/Share_URL-0288D1?style=plastic&logo=aboutdotme&logoColor=white)](https://streamlit.io/cloud) | *Share the public URL with users worldwide* |
 
-**🚀 App Live: Public URL**
-```
-https://brluhecnkuvhp99tuzhzv3.streamlit.app/
-```
-Click the link above to access the live application!
+**Steamlit Features Interface:**  
+| | |
+|-|-|  
+| [![Search](https://img.shields.io/badge/Search-FF6F00?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *Interactive dataset search with keyword filtering* |
+| [![Browse](https://img.shields.io/badge/Browse-0288D1?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *Browse and select datasets from dati.gov.it* |
+| [![Analyze](https://img.shields.io/badge/Analyze-663399?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *Analyze individual datasets or process all results* |
+| [![Maps](https://img.shields.io/badge/Maps-FF5722?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *View interactive maps for geographic data* | 
+| [![Download](https://img.shields.io/badge/Download-217346?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *Download analysis results as CSV* |
+| [![Statistics](https://img.shields.io/badge/Statistics-4CAF50?style=plastic)](https://github.com/1ESA1/AnalisiOpenData) | *View data summaries and statistics* |
+  
+## RUN
+| Version | CLI |
+|-|-|
+| Modular | ```bash cd src python main.py```|
+| Original | ```bash cd src python AnalisiOpenData.py```|
 
-**Features:**
-- 🔍 Interactive dataset search with keyword filtering
-- 📋 Browse and select datasets from dati.gov.it
-- 📊 Analyze individual datasets or process all results
-- 🗺️ View interactive maps for geographic data
-- 📥 Download analysis results as CSV
-- 📈 View data summaries and statistics
-
-### **Modular Version CLI (Recommended)**
-```bash
-cd src
-python main.py
-```
-
-### **Original Version (Compatibility)**
-```bash
-cd src
-python AnalisiOpenData.py
-```
-
-### **Application Testing**
+### [![Tests](https://img.shields.io/badge/Run_Tests-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) **Application Testing**
 ```bash
 # Run all tests
 cd tests
@@ -98,38 +95,23 @@ python test_unified.py     # Unified tests
 python test_utils.py       # Utility tests
 ```
 
-## ⚙️ Features
-1. **🔍 Dataset Search**: Enter a keyword to filter available datasets
-2. **📋 Dataset Selection**: Choose the desired dataset from the filtered list
-3. **⬇️ Automatic Download**: The system automatically downloads CSV data
-4. **📊 Accident Analysis**: If available, analyzes road accident data
-5. **🗺️ Visualization**: Creates interactive maps of accidents
-
-## 📁 Output
-- **`data/`**: JSON files with dataset metadata
-- **`output/`**: Output files (CSV, Excel, HTML maps)
-  - `🗺️ mappa_incidenti.html` - Interactive map
-  - `📊 output.xlsx` - Excel report
-  - `📄 output.csv` - Data exported to CSV
+## 📁 OUTPUT
+| | |
+|-|-|
+| **`data/`** | JSON files with dataset metadata |
+| **`output/mappa_incidenti.html`** | Interactive map |
+| **`output/output.xlsx`** | Excel report |
+| **`output/output.csv`** | Data exported to CSV |
 
 ## 🏆 Improvements Implemented
-1. **🔧 Separation of Concerns**: Each module has specific role
-2. **📦 Modular Architecture**: Independent and reusable components
-3. **⚙️ Configuration Management**: Centralized settings
-4. **🛡️ Error Handling**: Robust error handling
-5. **🧪 Test-Driven**: Complete test suite for validation
-6. **📝 Documentation**: Detailed documentation
-7. **🔄 Backward Compatibility**: Legacy code maintained
-
-### 📊 Implemented Improvements
-- ✅ **Separation of responsibilities** into modules
-- ✅ **Robust error handling** with exception management
-- ✅ **Centralized configuration**
-- ✅ **Improved user interface**
-- ✅ **Code documentation**
-- ✅ **Data validation**
-- ✅ **Automatic directory management**
-- ✅ **Complete test suite**
+|  |  |
+|------|-------------|
+| [![Separation](https://img.shields.io/badge/Separation_of_Concerns-0288D1?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Independent and reusable components |
+| [![Config](https://img.shields.io/badge/Config_Management-4CAF50?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Centralized settings |
+| [![Error](https://img.shields.io/badge/Error_Handling-FF5252?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Robust error handling |
+| [![Tests](https://img.shields.io/badge/Test_Driven-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Complete test suite for validation |
+| [![Docs](https://img.shields.io/badge/Documentation-4D4D4D?style=plastic&logo=readthedocs&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Detailed documentation |
+| [![Backward](https://img.shields.io/badge/Backward_Compatible-FF9800?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) | Legacy code maintained |
 
 ## ✨ Latest Updates
 
