@@ -3,7 +3,7 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
 [![Repo Size](https://img.shields.io/github/repo-size/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData)
-[![Last Commit](https://img.shields.io/github/last-commit/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData/commits/main)  
+[![Last Commit](https://img.shields.io/github/last-commit/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=4CAF50)](https://github.com/1ESA1/AnalisiOpenData/commits/main)
 [![GitHub stars](https://img.shields.io/github/stars/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=yellow)](https://github.com/1ESA1/AnalisiOpenData/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/1ESA1/AnalisiOpenData?style=plastic&logo=github&logoColor=white&color=blue)](https://github.com/1ESA1/AnalisiOpenData/forks)
 
@@ -186,15 +186,10 @@ ls -la tests/
 ls -la data/
 ls -la output/
 ```
-## CONTRIBUTING
-| | |
-|-|-|
-| [![Contributing](https://img.shields.io/badge/Contributing-663399?style=plastic&logo=github&logoColor=white)](CONTRIBUTING.md) | *Contributions are welcome! Follow these guidelines:* | 
-| [![Open an Issue](https://img.shields.io/badge/Open_an_Issue-FF5252?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/issues) | *Verify that it has not already been reported, describe the problem with examples* |
-| [![Submit a PR](https://img.shields.io/badge/Submit_a_PR-4CAF50?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/pulls) | *Fork, create a branch, make sure tests pass* |
-| [![Coding Standards](https://img.shields.io/badge/Coding_Standards-PEP8-0288D1?style=plastic&logo=python&logoColor=white)](CONTRIBUTING.md) | *Follow PEP8 for Python* |
-| [![Docs](https://img.shields.io/badge/Update-Docs-0288D1?style=plastic&logo=readthedocs&logoColor=white)](CONTRIBUTING.md) | *Update documentation* |
-| [![Discussions](https://img.shields.io/badge/Discussions-Q%26A_%26_Proposals-0288D1?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/discussions) | *Open a discussion for questions or proposals* |
+
+[![Contributing](https://img.shields.io/badge/Contributing-663399?style=plastic&logo=github&logoColor=white)](CONTRIBUTING.md)
+[![Report Issues](https://img.shields.io/badge/Report_Issues-FF5252?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/issues)
+[![Pull Requests](https://img.shields.io/badge/Pull_Requests-4CAF50?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData/pulls) *Read [CONTRIBUTING.md](CONTRIBUTING.md) for the complete guidelines on how to contribute to the project.*  
 
 [![GitHub](https://img.shields.io/badge/GitHub-project_developed_by_1ESA1-0288D1?style=plastic&logo=github&logoColor=white)](https://github.com/1ESA1)
 [![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
