@@ -1,5 +1,5 @@
 # 🚀 AnalisiOpenData - Open Data Analyzer
-[![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-FF4B4B?style=plastic&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-Apache%202.0-5C2D91?style=plastic&logo=apache&logoColor=white)](LICENSE)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://brluhecnkuvhp99tuzhzv3.streamlit.app/)
@@ -20,18 +20,26 @@
 - [![Tests](https://img.shields.io/badge/Test_Suite-6DB33F?style=plastic&logo=testing-library&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Complete test suite for validation*
 - [![Config](https://img.shields.io/badge/Centralized_Config-0288D1?style=plastic&logo=python&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) *Centralized configuration for easy maintenance*
 
-## 🚀 Installation
-Installation instructions:
+## Installation
+[![Git](https://img.shields.io/badge/Git-F05032?style=plastic&logo=git&logoColor=white)](https://git-scm.com/)
+[![Terminal](https://img.shields.io/badge/Terminal-4D4D4D?style=plastic&logo=windows-terminal&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData)
 ```bash
 git clone https://github.com/1ESA1/AnalisiOpenData.git
 cd AnalisiOpenData
 ```
 
 ## 📋 Requirements
-- Python 3.6 or higher
-- Main dependencies: `requests`, `pandas`, `folium`
-- Support files: JSON and CSV management
-- Compatible with datasets in JSON and CSV format
+
+- [![Python](https://img.shields.io/badge/Python-3.6%2B-3776AB?style=plastic&logo=python&logoColor=white)](https://www.python.org/) — *Version Requests*
+- [![Requests](https://img.shields.io/badge/Requests-3766AB?style=plastic&logo=python&logoColor=white)](https://docs.python-requests.org/) — *Call API*
+- [![Pandas](https://img.shields.io/badge/Pandas-150458?style=plastic&logo=pandas&logoColor=white)](https://pandas.pydata.org/) — *For manipulation data*
+- [![Folium](https://img.shields.io/badge/Folium-77B829?style=plastic&logo=python&logoColor=white)](https://python-visualization.github.io/folium/) — *For interactive map*
+- [![Support](https://img.shields.io/badge/Support-JSON%2FCSV-217346?style=plastic&logo=microsoftexcel&logoColor=white)](https://github.com/1ESA1/AnalisiOpenData) - *Extensible and Compatible*
+
+The dependencies are present in the file. [`requirements.txt`](requirements.txt). 
+```bash
+pip install -r requirements.txt
+```
 
 ## 🎯 Usage
 
