@@ -1,0 +1,9 @@
+# Nascondi file HTML e CSS 
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+
+# Forza il riconoscimento dei file Python
+*.py linguist-detectable=true
+
+# Escludi completamente cartella doc
+docs/* linguist-documentation=false
